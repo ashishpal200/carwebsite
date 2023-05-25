@@ -1,0 +1,115 @@
+@media(max-width:1170px){
+    .section-subtitle{
+        max-width: 60%;
+    }
+    .header .navbar-brand{
+        width: 40%; 
+        height: auto;
+    }
+    
+    
+
+    
+}
+
+@media(max-width:991px){
+    .header .navbar{
+        background-size: cover;
+        
+    }
+    .header .header_right{
+        margin-left: -3rem;
+    }
+
+    .header .navbar-toggler{
+        font-size: 2rem;
+        padding: 0;
+        
+    }
+
+    .header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-link.active{
+    color: #FD8A8A;
+}
+
+    .header .navbar-toggler:focus{
+        
+        box-shadow: none;
+        outline: none;
+    }
+    .header .navbar-brand{
+        width: 40%; 
+        height: auto;
+    }
+    .benner_section .btn{
+        width: 30%;
+        font-size :11px;
+      font-weight :100;
+    }
+
+}
+
+@media(max-width:767px){
+body,html{
+    font-size:9px;
+}
+
+.section-subtitle{
+    max-width: 80%;
+    
+}
+.benner_section{
+    min-height: 70vh;
+}
+.benner_section .btn{
+    width: 30%;
+    font-size :11px;
+  font-weight :100;
+}
+}
+
+
+@media(max-width:590px){
+    body,html{
+        font-size:8px;
+
+    }
+
+    .benner_section{
+        min-height: 60vh;
+    }
+
+    .benner_section .btn{
+        width: 30%;
+        font-size :7px;
+      font-weight :800;
+      border-radius :2rem;
+    }
+    
+    }
+
+    @media(max-width:590px){
+        .landing_cars_product_section .product-card img{
+            height: 35rem;;
+            width:  100%;;
+
+        }
+        .landing_cars_product_section p{
+            padding-left: 11rem;
+        }
+        
+        }
+
+        @media(max-width:767px){
+            .landing_cars_product_section .product-card img{
+                height: 25rem;;
+                width:  100%;;
+    
+            }
+            .landing_cars_product_section p{
+                padding-left: 11rem;
+            }
+            
+            }
+
+

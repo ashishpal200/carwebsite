@@ -1,0 +1,532 @@
+.header{
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    z-index: 2;
+}
+
+.header .navbar{
+   background-color: #E9EDC9;
+   background-repeat: no-repeat;
+   padding: 0rem 5rem; 
+   background-position: center;
+   border-radius: 40px;
+}
+
+.header .dropdown-menu .dropdown-item{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+.header .navbar-nav .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: cursive;
+    
+    
+}
+.header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-link.active{
+    color: #FD8A8A;
+}
+.header .header_right{
+    margin-left: 3rem;
+}
+.header .header_right span{
+    color: black;
+    display: block;
+    
+    font-family: cursive;
+    font-weight: 400;
+    margin-left: 3rem;
+    margin-right: 1rem;
+
+}
+
+.header .header_right .phone_no{
+    color: black;
+    font-size: 0.8rem;
+    width: 100%;
+    
+}
+
+
+/*banner sectin*/
+
+.benner_section{
+    background:url('../img/car2.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.benner_section .carousel-item{
+    padding: 3rem 0rem;
+    height: 90vh;
+}
+.benner_section h3{
+    
+    font-family: cursive;
+
+}
+.benner_section p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: cursive;
+    
+}
+
+
+body .btn{
+    border :2px solid currentColor;
+  border-radius :3rem;
+  color :yellow;
+  width: ;
+  font-family :cursive;
+  font-size :18px;
+  font-weight :200;
+  overflow :hidden;
+  padding :1rem 2rem;
+  position :relative;
+  text-decoration :none;
+  transition :.2s ;
+  will-change :transform;
+  z-index: 0;
+  
+}
+
+body .btn::after{
+    background-color :yellow;
+    border-radius :3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width :100%;
+    position :absolute;
+    left :0;
+    top :0;
+    transform :translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: .2s transform ease-out;
+    will-change :transform;
+    z-index :-1;
+}
+
+body .btn:hover::after{
+    transform: translate(0, 0);
+
+}
+
+body .btn:hover{
+    border: 2px solid transparent;
+    color: indigo;
+    transform :scale(1.05);
+    will-change :transform;
+
+}
+
+
+
+
+.benner_section .btn{
+    border :2px solid currentColor;
+  border-radius :3rem;
+  color :yellow;
+  width: 22%;
+  font-family :cursive;
+  font-size :18px;
+  font-weight :200;
+  overflow :hidden;
+  padding :1rem 2rem;
+  position :relative;
+  text-decoration :none;
+  transition :.2s ;
+  will-change :transform;
+  z-index: 0;
+  
+}
+.benner_section .btn::after{
+    background-color :yellow;
+    border-radius :3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width :100%;
+    position :absolute;
+    left :0;
+    top :0;
+    transform :translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: .2s transform ease-out;
+    will-change :transform;
+    z-index :-1;
+}
+
+.benner_section .btn:hover::after{
+    transform: translate(0, 0);
+
+}
+
+.benner_section .btn:hover{
+    border: 2px solid transparent;
+    color: indigo;
+    transform :scale(1.05);
+    will-change :transform;
+
+}
+
+/* featrue section*/
+.feature-section{
+    padding-top: 5rem;
+}
+.feature-section .feature-box{
+    background-color: transparent;
+    border: 1px solid #FFE1E1;
+    padding:10px 0;
+    transition: all 0.3s;
+
+}
+
+.feature-section h3{
+    
+    font-family: cursive;
+
+}
+.feature-section p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: cursive;
+    
+}
+
+.feature-section .features-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border:0.2rem solid #B6E2A1;
+    padding: 1.3rem;
+    display: inline-block;
+    
+}
+.feature-section .features-icon-border .features-icon{
+    height: 6.5rem;
+    width: 6.5rem;
+    background-color:#FFFBC1;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.feature-section .features-icon-border .features-icon img{
+    width: 3.7rem;
+}
+
+.feature-section .feature-box h3{
+    margin-top: 1.3rem;
+    font-weight: 700;
+}
+
+.feature-section .feature-box:hover{
+    background-color: #B1B2FF;
+    border-color: #B1B2FF;
+}
+
+
+.feature-section .feature-box:hover h3{
+    color: #554994;
+}
+
+.feature-section .feature-box:hover .features-icon-border{
+    border-color: white;
+}
+
+/* featrue section*/
+
+
+
+/*about section*/
+
+.landing_about_section{
+    background: url(../img/about.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.landing_about_section h2{
+    margin-top: 1rem;
+    font-family: cursive;
+}
+
+.landing_about_section p{
+    color: #000000;
+    margin: 2rem 0;
+    font-family: cursive;
+    
+}
+
+/*about section*/
+
+/*cars section*/
+.landing_cars_product_section{
+    padding-top: 5rem;
+    font-family: cursive;
+    
+}
+
+.landing_cars_product_section .product-card{
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: transparent;
+    transition: all 0.3s;
+    padding: 2rem 1rem;
+    border: 2px solid lightblue;
+    
+}
+
+.landing_cars_product_section .product-card  h3{
+
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 4rem;
+}
+.landing_cars_product_section .product-card img{
+    height: 11rem;
+    width: 100%;
+    
+
+}
+
+.landing_cars_product_section .product-card .btnone{
+    position: absolute;
+    bottom: -22rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: rgb(230, 210, 210);
+    transition: all 0.5s ease;
+}
+.landing_cars_product_section .product-card:hover .btnone{
+    bottom: 0;
+}
+/*cars section*/
+
+/*testimonial section*/
+.testimonial_section{
+    background-color:white;
+    padding-bottom: 8rem;
+    font-family: cursive;
+}
+
+.testimonial_section .carousel-indicators{
+    bottom: -6rem;
+}
+
+.testimonial_section .carousel-indicators button{
+    background-color: #000000;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+
+.testimonial_section .card{
+    text-align: center;
+    padding: 5rem 5rem 5rem o;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+/*testimonial section*/
+
+
+
+#myImg {
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  
+  #myImg2 {
+  
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg2:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  
+  .gallary_section{
+    padding-top: 3rem;
+    font-family: cursive;
+    padding-bottom: 4rem;
+  }
+
+  .gallary_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+  .footer_wrapper{
+    background-color: #000000;
+    font-family: cursive;
+    text-decoration: none;
+    
+  }
+
+  .footer_wrapper h5{
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  .footer_wrapper ul li{
+    margin-bottom: 0.5rem;
+    list-style: none;
+    
+  }
+
+  .footer_wrapper .company_details{
+    font-size: 1rem;
+    color: white;
+  }
+
+  .footer_wrapper .contact_info li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .footer_wrapper .link-widget li a,
+  .footer_wrapper p{
+    color: white;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+    text-decoration: none;
+  }
+
+  .footer_wrapper .social-network a{
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.2rem;
+    border-radius: 100%;
+    display: inline-block;
+    border: 0.125rem solid white;
+    color: white;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .footer_wrapper  .copyright-section{
+    background-color: rgb(75, 75, 56);
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .footer_wrapper  copyright-section p{
+    
+    margin-top: 0;
+    padding: 3rem 0;
+    line-height: 0;
+
+  }
+
+
+
+  
